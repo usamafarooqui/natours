@@ -1,0 +1,22 @@
+use dbname (to create a database / or switch to a database)
+// to insert collections
+// tours collection name hai
+db.tours.insertOne({
+	name:"the forest hiker",
+	price:297,
+	rating:4.7
+})
+
+// to see data in a collection
+db.tours.find()
+
+// to show all the database
+show dbs
+
+// to show all collections
+
+show collections
+
+// to insert many data at same time
+
+db.tours.insertMany([{name:"the sea" , price:456} , {name:"the lans" , price:999}])

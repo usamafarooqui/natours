@@ -1,0 +1,16 @@
+// to update one document
+// tours is a collection
+
+db.tours.updateOne({ye wala object filter hoga}, {$set:{ye jo value update krni hogi}})
+db.tours.updateOne({name:'the ice adventure'}, {$set :{price :597}})
+
+// to update many
+
+db.tours.updateMany({ye wala object filter hoga}, {$set:{ye jo value update krni hogi}})
+db.tours.updateOne({price:{$gt:500}, {rating:{$4.8}}}, {$set :{premimum :true}})
+
+
+// we can also replace the whole record
+
+db.tours.replaceOne({ye wala object filter hoga}, {$set:{ye jo value update krni hogi}})
+db.tours.replaceMany({ye wala object filter hoga}, {$set:{ye jo value update krni hogi}})

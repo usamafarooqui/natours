@@ -1,0 +1,39 @@
+streams are use to process (read and write data piece by piece ) chunks , without completing the 
+whole read and write operation and theirfore without keeping all the data in memory
+for eg youtube videos puri video load nahi hoti pehlay piece by piece load hoti rehti hai
+
+in node there are 4 types of streams 
+
+1 ) readable streams
+        stream from which we can consume data 
+        example 
+        http request 
+        fs read streams 
+        important events 
+        data 
+        end 
+        important function 
+        pipe()
+        read()
+2) writable streams 
+        stream from which we can write data 
+        example 
+        http response 
+        fs write streams 
+        important events 
+        drain  
+        finish 
+        important function 
+        write()
+        end()
+
+3) duplex streams 
+        stream from which we can do both read and  write data 
+        example 
+        web sockets 
+        
+4) transform stream 
+    stream from which we can transform data as it is written or read
+    example 
+    zlib grib creation 
+    

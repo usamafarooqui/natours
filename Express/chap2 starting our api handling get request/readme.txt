@@ -1,0 +1,1 @@
+lecture 8 dubara krna

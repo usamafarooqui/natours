@@ -1,0 +1,26 @@
+[
+    {
+        "id":0,
+        "productName":"frsh avacado",
+        "image":"https://thumbs.dreamstime.com/b/whole-avocado-leaves-cut-half-isolated-white-background-seed-as-package-design-element-61016823.jpg",
+        "from":"spain",
+        "nutrients":"vitamin B and vitamin C",
+        "quantity":6,
+        "price":20,
+        "quality":"good",
+        "organic":true,
+        "description":"avocado, (Persea americana), also called alligator pear, tree of the family Lauraceae and its edible fruit. Avocados are native to the Western Hemisphere from Mexico south to the Andean regions and are widely grown in warm climates."
+    },
+    {
+        "id":1,
+        "productName":"frsh mango",
+        "image":"https://thumbs.dreamstime.com/b/whole-avocado-leaves-cut-half-isolated-white-background-seed-as-package-design-element-61016823.jpg",
+        "from":"pak",
+        "nutrients":"vitamin B and vitamin C",
+        "quantity":6,
+        "price":20,
+        "quality":"great",
+        "organic":true,
+        "description":"avocado, (Persea americana), also called alligator pear, tree of the family Lauraceae and its edible fruit. Avocados are native to the Western Hemisphere from Mexico south to the Andean regions and are widely grown in warm climates."
+    }
+]

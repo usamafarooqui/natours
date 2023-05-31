@@ -1,0 +1,1 @@
+aggregation pipeline mongodb k wo funtion hai jis se wo averages ya dusri statistics bta deta hai meray api ya data se

@@ -1,0 +1,1 @@
+how to create a emitter function it is like a button is press in dom front end

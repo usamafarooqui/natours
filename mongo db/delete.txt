@@ -1,0 +1,8 @@
+// delete many
+
+db.tours.deleteMany({isko delete krna hai uska reference})
+db.tours.deleteMany({rating:{$lt:4.6}})
+
+// to delete all objects 
+// {} ko khali chor dena
+db.tours.deleteMany({})

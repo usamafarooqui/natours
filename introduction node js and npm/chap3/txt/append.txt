@@ -1,0 +1,1 @@
+In computer programming, append is the operation for concatenating linked lists or arrays in some high-level programming languages.

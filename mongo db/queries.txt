@@ -1,0 +1,23 @@
+// to find all data in a collection
+//tours is the collection name
+db.tours.find()
+
+// to search by name 
+db.tours.find({name:"the forest hiker"})
+
+// operators 
+// search for price less than 500
+// lte yani less then equal 
+db.tours.find({price:{$lte:500}})
+
+// to search for 2 criteria at the same time
+//                              ye comma ka mtlb and operator hai
+// db.tours.find({price :{$lt:500} , rating:{$gte:4.8}})
+
+// or query 
+
+db.tours.find({$or : [{price:{$lt:500}} ,{rating:{$gte:4.8}} ]})
+
+// agr filter laganay k bad bus 1 field wapis leni ho eg name tou
+//                                                               1 yani true
+db.tours.find({$or : [{price:{$lt:500}} ,{rating:{$gte:4.8}} ,{name:1} ]})

@@ -1,0 +1,1 @@
+query string bnaigay is mein in get all tours
